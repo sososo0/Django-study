@@ -21,7 +21,7 @@ python -m venv mywebsite
 
 3) activate.bat 실행 
     ```
-    .\activate.bat
+    activate.bat
     ```
 
 4) 가상환경 내부에서 
@@ -41,5 +41,5 @@ python -m django --version
 - deactivate 사용 
 
     ```
-    .\deactivate.bat 
+    deactivate
     ```
