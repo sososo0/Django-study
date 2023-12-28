@@ -17,12 +17,29 @@ python -m venv mywebsite
 
 1) mywebsite 디렉토리로 이동
 
-2) scripts 디렉토리 
+2) scripts 디렉토리로 이동  
 
 3) activate.bat 실행 
+    ```
+    .\activate.bat
+    ```
 
 4) 가상환경 내부에서 
 
     ```
     pip install Django 
+    ```
+
+##### Django 설치 후 버전 확인 
+
+```
+python -m django --version 
+```
+
+##### 가상환경 빠져나오는 방법 
+
+- deactivate 사용 
+
+    ```
+    .\deactivate.bat 
     ```
